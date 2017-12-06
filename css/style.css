@@ -1,0 +1,173 @@
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.sidebar {
+	height: 100%;
+	background-color: white;
+	width: 20%;
+	position: fixed;
+	float: left;
+}
+
+.avatar {
+	background-color: grey;
+	background-image: url('https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAfOAAAAJDg0YTlmMGYxLTE2OWItNDViYi05NTNjLTMyMDAwOTFmYmMwNQ.png');
+	background-size: 100% 100%;
+	margin: 40px auto;	
+	height: 200px;
+	width: 200px;
+	margin-bottom: 0;
+}
+
+.buttonframe {
+	background-color: skyblue;
+	margin: 10px auto	;	
+	height: 50px;
+	width: 200px;
+	text-align: center;	
+	line-height: 50px;
+}
+
+.buttons {
+	background-color: skyblue;
+	margin: 0 auto	;	
+	height: 50px;
+	width: 200px;
+	text-align: center;	
+	line-height: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	cursor: default;
+}
+
+.home,
+.about,
+.services,
+.projects,
+.gallery {
+	height: 918px;
+	width: 80%;
+	float: right;
+}
+
+.home {
+	background-image: url('https://pbs.twimg.com/profile_images/436905359261704193/uksgBTIE_400x400.png');
+	background-repeat: no-repeat;
+	/*background-size: 500px 500px;*/
+	background-position: right bottom;
+	/*background-color: #333366;*/
+}
+.about {
+	background-image: url('http://images.all-free-download.com/images/graphiclarge/fido_dido_0_135976.jpg');
+	background-repeat: no-repeat;
+	/*background-size: 200% 100%;*/
+	background-position: right bottom;
+	/*background-color: #abc5d6;*/
+}
+.services {
+	background-image: url('http://thewallpaper.co/wp-content/uploads/2017/08/colors-colourful-pictures-window-glassbroken-psychedelic-abstract-arthd-wallpaper-shattered-abstract-free-images-crack-desktop-images-pattern-bokeh-768x512.jpg');
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	background-position: left;
+	/*background-color: #6699cc;*/
+}
+
+.projects {
+	background-image: url('https://wallpaperhdzone.com/wp-content/uploads/2016/09/broken-glass-wallpaper-HD7.jpg');
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	background-position: left;
+	/*background-color: green;*/
+	
+}
+
+.gallery {
+	background-color: pink;
+}
+
+.homecontent	{
+	border: 5px solid;
+	border-color: black;
+	width: 40%;
+	height: 200px;
+	text-align: center;
+	margin: 70px auto;
+	padding-top: 0px;
+	color: black;
+}
+
+.hometext {
+	color: black;
+}
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}	
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee: 
+}
+
+h1,
+h2	{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.message {
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+
+
+
+.imagecontent,
+img {
+	height: 150px;
+	width:	300px;
+	margin-bottom: 10px: 
+}
+
+.imagecontent {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
