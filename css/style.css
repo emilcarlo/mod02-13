@@ -61,6 +61,13 @@ span {
 	float: right;
 }
 
+/*.bgimg {
+	background-image: url('https://pbs.twimg.com/profile_images/436905359261704193/uksgBTIE_400x400.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	float: right;
+}*/
+
 .home {
 	background-image: url('https://pbs.twimg.com/profile_images/436905359261704193/uksgBTIE_400x400.png');
 	background-repeat: no-repeat;
@@ -171,3 +178,20 @@ img {
 	margin-right: 30px;
 	margin-bottom: 10px;
 }
+
+#toggleIcon,
+#toggleIcon1 {
+	background-color: red;
+	position: fixed;
+	top: 0;
+	left: 20%;
+	padding: 15px;
+	z-index: 1;
+	color: white;
+	font-size: 2em; 
+}
+
+#toggleIcon1 {
+	left: 0;
+}
+
